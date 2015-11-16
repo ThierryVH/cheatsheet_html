@@ -91,6 +91,10 @@ nav{
   padding-bottom: 5px;
 }
 
+nav ul ul code{
+  background-color: rgba(250, 250, 250, 0);
+}
+
 
 #logo_html5{
   margin-top: 5%;
