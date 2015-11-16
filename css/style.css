@@ -1,0 +1,146 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+body{
+  background-color: white;
+}
+
+div div div ul{
+  border: 1px solid black;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  list-style-type: none;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.060);
+}
+
+code{
+  color: #e44d26;
+}
+
+h1{
+  background-color: #e44d26;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 3.5em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+  padding-top: 3px;
+}
+
+nav li, nav code{
+  font-weight: bold;
+}
+
+nav code{
+  font-size: 0.9em;
+}
+
+header{
+  margin-top: 50px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+h2{
+  color: white;
+  font-weight: bold;
+  background-color: #f16529;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+div div div code{
+  font-size: 2em;
+}
+
+div div div ul code{
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 40px;
+  box-shadow: inset 0 6px 8px rgba(0, 0, 0, 0.30);
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+nav li{
+  text-align: center;
+}
+
+nav{
+  margin-top: 40px;
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+#logo_html5{
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+#nav_xs_sm{
+  display: none;
+  visibility: hidden;
+  border: 1px solid black;
+}
+
+
+a{
+  color: grey;
+  font-size: 1.1em;
+}
+
+a:focus{
+outline:0;
+}
+
+footer{
+  font-family: 'Lato', sans-serif;
+  border-top: 2px solid #a44d26;
+  padding-top: 40px;
+  margin-top: 100px;
+  height: 120px;
+  background-color: #e44d26;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.25);
+}
+
+footer a{
+  color: black;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+
+}
