@@ -4,14 +4,21 @@ body{
   background-color: white;
 }
 
-div div div ul{
-  border: 1px solid black;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  list-style-type: none;
-  padding-top: 20px;
-  background-color: rgba(0, 0, 0, 0.060);
+.glyphicon-triangle-top{
+  font-size: 3em;
+}
+
+.glyphicon-copyright-mark{
+  color:black;
+  font-size: 0.7em;
+}
+
+#glyphicon{
+  color: black;
+  right: 15px;
+  bottom: 15px;
+  position: fixed;
+
 }
 
 code{
@@ -146,5 +153,17 @@ footer a{
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
+
+  div div div ul{
+    border: 1px solid black;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    list-style-type: none;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.060);
+  }
+
+
 
 }

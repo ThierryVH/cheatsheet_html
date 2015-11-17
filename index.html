@@ -7,7 +7,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
      <link rel="stylesheet" href="css/style.css">
-     <link href='https://fonts.googleapis.com/css?family=Lato:700,400,700italic' rel='stylesheet' type='text/css'>
+     <link href="https://fonts.googleapis.com/css?family=Lato:700,400,700italic" rel="stylesheet" type="text/css">
      <link rel="icon" type="image/png" href="images/html5.png" />
 
 
@@ -15,6 +15,8 @@
 </head>
 
 <body>
+
+     <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
 
      <header class="container">
           <div class="row">
@@ -726,8 +728,8 @@
                          </li>
                          <li>
                               <code id="address">address</code>
-                              <p>Généralement utilisée dans le conteneur &lt;footer&gt;, cette balise est utilisée à la place de la balise &lt;p&gt;, les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou un
-                                   label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise &lt;p&gt; pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y rapportant.
+                              <p>Généralement utilisée dans le conteneur &lt;footer&gt;, cette balise est utilisée à la place de la balise &lt;p&gt;, les informations nécessaires pour contacter la ou les auteurs du document cité. Cela peut-être son nom ou
+                                   un label suivi de son adresse email par-exemple ou adresse postale. Confusion possible : on utilisera la balise &lt;p&gt; pour donner l'adresse postale d'une entreprise sans relation avec l'auteur du document s'y rapportant.
                               </p>
                          </li>
                          <li>
@@ -820,8 +822,8 @@
                          </li>
                          <li>
                               <code id="command">command</code>
-                              <p>Cette balise est utilisée comme un bouton, un radiobutton, ou un checkbox. Elle ne peut être visible qu'à l'intérieur de la balise &lt;menu&gt;, dans le cas contraire, elle ne sera pas visible et utilisée comme raccourcis clavier.
-                                   Attention, l'attribut "title" à une valeur sémantique différente pour cette balise. </p>
+                              <p>Cette balise est utilisée comme un bouton, un radiobutton, ou un checkbox. Elle ne peut être visible qu'à l'intérieur de la balise &lt;menu&gt;, dans le cas contraire, elle ne sera pas visible et utilisée comme raccourcis
+                                   clavier. Attention, l'attribut "title" à une valeur sémantique différente pour cette balise. </p>
                          </li>
                     </ul>
 
@@ -888,8 +890,8 @@
                          <li>
                               <code id="figure">figure</code>
                               <p>Utilisée pour regrouper un ou plusieurs médias ( illustrations, diagrammes, exemples de code, photos...) attachés au document sans pour autant en suivre le flux. Les images s'y trouvant n'ont pas obligation d'être inséré
-                                   dans une balise &lt;p&gt; et dans le cas d'une liste d'images, on peut omettre les listes à puce. On utilisera la balise figcaption pour décrire les médias utilisés. Confusion : cette balise ne doit être utilisée dès qu'il
-                                   y a une image dans un article, on peut aussi la confondre avec la balise &lt;aside&gt;. </p>
+                                   dans une balise &lt;p&gt; et dans le cas d'une liste d'images, on peut omettre les listes à puce. On utilisera la balise figcaption pour décrire les médias utilisés. Confusion : cette balise ne doit être utilisée dès
+                                   qu'il y a une image dans un article, on peut aussi la confondre avec la balise &lt;aside&gt;. </p>
                          </li>
                          <li>
                               <code id="footer">footer</code>
@@ -913,7 +915,8 @@
                          </li>
                          <li>
                               <code id="header">header</code>
-                              <p>Pour l'entête d'une section et/ou d'une page, cette balise est utile pour une introduction et/ou des éléments de navigation. Cette balise peut-être utilisée dans la balise &lt;section&gt; et dans la balise &lt;article&gt;. </p>
+                              <p>Pour l'entête d'une section et/ou d'une page, cette balise est utile pour une introduction et/ou des éléments de navigation. Cette balise peut-être utilisée dans la balise &lt;section&gt; et dans la balise &lt;article&gt;.
+                                   </p>
                          </li>
                          <li>
                               <code id="hgroup">hgroup</code>
@@ -933,8 +936,8 @@
                     <ul>
                          <li>
                               <code id="i">i</code>
-                              <p>Utilisée dans un paragraphe pour indiquer qu'une partie du texte est différent du reste. Il ne faut pas utiliser cette balise lorsque &lt;b&gt;, &lt;cite&gt;,&lt;dfn&gt;,&lt;em&gt;,&lt;q&gt;,&lt;small&gt; ou &lt;strong&gt; peuvent être
-                                   utilisées. Note : Certains analyseurs de site nous disent que cette balise est obsolète, ce qui est totalement faux. </p>
+                              <p>Utilisée dans un paragraphe pour indiquer qu'une partie du texte est différent du reste. Il ne faut pas utiliser cette balise lorsque &lt;b&gt;, &lt;cite&gt;,&lt;dfn&gt;,&lt;em&gt;,&lt;q&gt;,&lt;small&gt; ou &lt;strong&gt;
+                                   peuvent être utilisées. Note : Certains analyseurs de site nous disent que cette balise est obsolète, ce qui est totalement faux. </p>
                          </li>
                          <li>
                               <code id="iframe">iframe</code>
@@ -1240,11 +1243,21 @@
           </div>
      </div>
 
-     <footer>Informations provenant de <a href="https://www.vectorskin.com/balises-html5/"><em>Vectorskin.com</em></a></footer>
+     <a id="glyphicon" href="#logo_html5">
+          <span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span>
+     </a>
+
+     <footer>Informations provenant de
+          <a href="https://www.vectorskin.com/balises-html5/">
+               <em>Vectorskin.com</em>
+          </a>
+          <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+     </footer>
 
      <script type="text/javascript" src="bootstrap/js/jquery-2.1.4.min.js"></script>
      <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
      <script type="text/javascript" src="bootstrap/js/myScript.js"></script>
+
 </body>
 
 </html>
